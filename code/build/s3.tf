@@ -7,9 +7,9 @@ resource "aws_s3_bucket" "dev_s3" {
 
   tags = {
     Environment          = "Dev"
-    git_commit           = "adda5bed3c695c623e20525f3c5abafcfa9f84b3"
+    git_commit           = "9bdafcaf0c264dfc7d88c069e75cde1f52bf18ae"
     git_file             = "code/build/s3.tf"
-    git_last_modified_at = "2025-01-22 18:38:23"
+    git_last_modified_at = "2025-01-22 18:19:26"
     git_last_modified_by = "120374152+Dalkeshwar@users.noreply.github.com"
     git_modifiers        = "120374152+Dalkeshwar"
     git_org              = "Dalkeshwar"
